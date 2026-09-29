@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation</title>
+
+  <style>
+
+    .white{
+      color:white;
+      background-color:red;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .description {
+      color: #555;
+    }
+
+    .box {
+      background: #e3e3e3;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 10px 15px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background: #333;
+      color: white;
+    }
+
+    button:hover {
+      background: #555;
+    }
+
+    .item {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1 id="text">DOM Manipulation</h1>
+
+    <p id="text">This is a paragraph.</p>
+
+    <p class="description">First description</p>
+    <p class="description">Second description</p>
+    <p class="description">Third description</p>
+
+    <button id="changeText">Change Text</button>
+    <button id="changeColor">Change Color</button>
+
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+
+    <ul id="list">
+      <li class="item">Apple</li>
+      <li class="item">Banana</li>
+      <li class="item">Mango</li>
+    </ul>
+
+  </div>
+
+  <script src="events.js"></script>
+
+</body>
+</html>
+
